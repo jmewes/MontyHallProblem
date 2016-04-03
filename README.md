@@ -7,7 +7,7 @@
 You should always switch your answer as you will have a success probability of 67% in this case. If you stick with your original answer you will have a success probability of only 33%.
 
 # Try it out
-Some people don't believe that this solution is right as it is counter-intutive. However, you can try it out by running the unit tests from this project.
+Some people don't believe that this solution is right as it is counter-intutive for them. If this is the case for you, you can run the [ProbabilityTest](https://github.com/jmewes/MontyHallProblem/blob/master/src/test/java/ProbabilityTest.java) from this project by yourself.
 ## Dependencies
 ```
 sudo apt-get install openjdk-8-jdk
