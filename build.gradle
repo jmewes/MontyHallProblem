@@ -1,29 +1,12 @@
-apply plugin: 'application'
 apply plugin: 'eclipse'
 apply plugin: 'java'
 
-version = '0.0.1'
-
-// Workaround for Gradle 1.4. https://goo.gl/KqJOXZ
-test.scanForTestClasses = false
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'org.testng',            name: 'testng',     version: '6.9.10'
-}
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.4'
-}
-
-compileJava {
-    options.encoding = "latin1"
-}
-
-test {
-    useTestNG()
+    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 

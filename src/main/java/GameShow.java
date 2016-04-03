@@ -2,12 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Utils {
+
+public class GameShow {
     
     private final static int NUMBER_OF_DOORS = 3;
     private final static Random rand = new Random();
     
-    public static boolean[] getRandomSolution() {
+    public static boolean[] getRandomDoorAllocation() {
         
         boolean[] solution = new boolean[NUMBER_OF_DOORS];
         int solutionIndex = rand.nextInt(NUMBER_OF_DOORS);
@@ -16,15 +17,15 @@ public class Utils {
         return solution;
     }
     
-    public static int getRandomUserChoice() {
+    public static int getRandomPlayerChoice() {
         
         return rand.nextInt(NUMBER_OF_DOORS);
     }
     
-    public static int getGameMasterChoice(boolean[] doors, int userChoice) {
+    public static int getRandomGameMasterChoice(boolean[] doors, int userChoice) {
        
         List<Integer> wrongAnswers = new ArrayList<Integer>();
-        for(int i=0; i<NUMBER_OF_DOORS; i++) {
+        for(int i = 0; i < NUMBER_OF_DOORS; i++) {
             boolean answer = doors[i];
             if (answer == false) {
                 wrongAnswers.add(i);
@@ -40,6 +41,7 @@ public class Utils {
     }
     
     public static int getRemainingOption(int userChoice, int gameMasterChoice) {
+        
         return NUMBER_OF_DOORS - userChoice - gameMasterChoice;
     }
 }
