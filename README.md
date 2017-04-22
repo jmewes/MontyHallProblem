@@ -4,7 +4,7 @@
 ([Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem))
 
 # Solution
-You should always switch your answer as you will have a success probability of 67% in this case. If you stick with your original answer you will have a success probability of only 33%.
+https://gist.github.com/jmewes/f5730caa385fc50274cd20b4a511299d
 
 # Try it out
 Some people don't believe that this solution is right as it is counter-intutive for them. If this is the case for you, you can run the [ProbabilityTest](https://github.com/jmewes/MontyHallProblem/blob/master/src/test/java/ProbabilityTest.java) from this project by yourself.
