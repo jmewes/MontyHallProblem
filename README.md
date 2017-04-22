@@ -4,7 +4,7 @@
 ([Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem))
 
 # Try it out
-If this is the case for you, you can run the [ProbabilityTest](https://github.com/jmewes/MontyHallProblem/blob/master/src/test/java/ProbabilityTest.java) from this project to test your answer.
+You can run the [ProbabilityTest](https://github.com/jmewes/MontyHallProblem/blob/master/src/test/java/ProbabilityTest.java) from this project to test your answer.
 ## Dependencies
 ```
 sudo apt-get install openjdk-8-jdk
