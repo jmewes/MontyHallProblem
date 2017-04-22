@@ -6,10 +6,9 @@
 # Try it out
 You can run the [ProbabilityTest](https://github.com/jmewes/MontyHallProblem/blob/master/src/test/java/ProbabilityTest.java) from this project to test your answer.
 ## Dependencies
-```
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install gradle
-```
+- Java 8 Runtime Environment
+- [Gradle](https://www.gradle.org)
+
 ## Run the tests
 ```
 gradle test
